@@ -1,0 +1,73 @@
+@import "reset";
+@import "variables";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+h2 {
+	color: #333;
+	font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	li {
+	width: $diametro;
+	height: $diametro;
+	border-radius: $radio;
+	display: inline-block;
+	text-align: center;
+	margin: 5px;
+	transition-duration: 0.7s;
+		&.fb {
+			background: $color-fb;
+			&:hover {
+            background: darken($color-fb, 20%);
+        	}
+		}
+		&.tw {
+			background: $color-tw;
+			&:hover {
+            background: darken($color-tw, 20%);
+            }
+		}
+		&.in {
+			background: $color-in;
+			&:hover {
+            background: darken($color-in, 20%);
+            }
+		}
+		&.go {
+			background: $color-go;
+			&:hover {
+            background: darken($color-go, 20%);
+            }
+		}
+		&.pi {
+			background: $color-pi;
+			&:hover {
+            background: darken($color-pi, 20%);
+            }
+		}
+		&:hover {
+			transform: scale(1.2,1.2);
+			transition-duration: 0.6s;
+		}
+		a {
+			display: inline-block;
+			width: $diametro;
+			height: $diametro;
+			.sociales {
+				font-size: $fuente;
+				color: $color0;
+				text-decoration: none;
+				line-height: $diametro;	
+			}
+		}
+		
+	}
+	
+}
+
+		

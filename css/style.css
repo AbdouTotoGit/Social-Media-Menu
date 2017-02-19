@@ -1,0 +1,52 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+h2 {
+  color: #333;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+nav {
+  width: 100%;
+  display: inline-block;
+  text-align: center; }
+  nav li {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    transition-duration: 0.7s; }
+    nav li.fb {
+      background: #3b5998; }
+      nav li.fb:hover {
+        background: #1e2e4f; }
+    nav li.tw {
+      background: #00aced; }
+      nav li.tw:hover {
+        background: #006287; }
+    nav li.in {
+      background: #007bb6; }
+      nav li.in:hover {
+        background: #003650; }
+    nav li.go {
+      background: #dd4b39; }
+      nav li.go:hover {
+        background: #96271a; }
+    nav li.pi {
+      background: #cb2027; }
+      nav li.pi:hover {
+        background: #731216; }
+    nav li:hover {
+      transform: scale(1.2, 1.2);
+      transition-duration: 0.6s; }
+    nav li a {
+      display: inline-block;
+      width: 100px;
+      height: 100px; }
+      nav li a .sociales {
+        font-size: 60px;
+        color: white;
+        text-decoration: none;
+        line-height: 100px; }
+
+/*# sourceMappingURL=style.css.map */
